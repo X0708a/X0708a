@@ -1,4 +1,4 @@
-# Hi, I'm Aashirvad Bajpai 👋
+# Hi, I'm Aashirvad Bajpai 
 
 I'm a B.Tech student at Manipal Institute of Technology with strong interests in
 Machine Learning, AI for Healthcare, and Open Source scientific computing.
@@ -6,7 +6,7 @@ I enjoy working on research-driven projects that combine theory, systems, and re
 
 ---
 
-## 🧠 Research & Technical Interests
+##  Research & Technical Interests
 - Machine Learning & Deep Learning
 - AI for Healthcare and Biomedical Data
 - Systems, Performance & GPU Computing
@@ -14,7 +14,7 @@ I enjoy working on research-driven projects that combine theory, systems, and re
 
 ---
 
-## 🛠️ Technical Skills
+## Technical Skills
 **Languages:** Python, C, C++, Java, SQL  
 **ML/DL:** PyTorch, TensorFlow, scikit-learn, NumPy, Pandas  
 **Data & Systems:** Awkward Array, cuDF, GPU-accelerated pipelines  
@@ -22,7 +22,7 @@ I enjoy working on research-driven projects that combine theory, systems, and re
 
 ---
 
-## 🧪 Open Source Contributions
+## Open Source Contributions
 ### Awkward Array
 Active open-source contributor with merged PRs focused on GPU compatibility and API correctness.
 
@@ -36,7 +36,7 @@ Contributions include code, tests, and documentation — aligned with real user-
 
 ---
 
-## 🏥 Current Research & Projects
+## Current Research & Projects
 
 ### Clinical Similarity Modeling (MIMIC-IV, PhysioNet)
 Currently working on a **clinical similarity model** using the MIMIC-IV dataset:
@@ -56,7 +56,7 @@ Research-oriented project exploring neural decoding pipelines:
 
 ---
 
-## 📚 Publications & Research
+## Publications & Research
 - **Knowledge Graph to Text Generation**  
   Co-author, IEEE MoSICom 2025  
   Ontology-driven triple-to-text generation using LLaMA-based LLMs  
@@ -64,7 +64,7 @@ Research-oriented project exploring neural decoding pipelines:
 
 ---
 
-## 🧩 Selected Projects
+## Selected Projects
 - **Panorama Video Generation (Research)**  
   AI-based panorama and video generation; documented in LaTeX
 - **Handwritten Digit Recognition (CNN)**  
@@ -76,14 +76,14 @@ Research-oriented project exploring neural decoding pipelines:
 
 ---
 
-## 🎯 Goals
+## Goals
 - Google Summer of Code contributor
 - Long-term research in AI + Systems
 - Meaningful open-source contributions with real-world impact
 
 ---
 
-## 📫 Contact
+## Contact
 - GitHub: https://github.com/X0708a
 - LinkedIn: https://linkedin.com/in/aashirvad-bajpai-534137286
 - Email: aashirvadbajpai8@gmail.com
