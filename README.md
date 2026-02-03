@@ -27,9 +27,9 @@ I enjoy working on research-driven projects that combine theory, systems, and re
 Active open-source contributor with merged PRs focused on GPU compatibility and API correctness.
 
 **Highlights:**
-- Fixed `ak.to_cudf` compatibility for cuDF ≥ 24.12
+- Contributed to improving ak.to_cudf compatibility with cuDF ≥ 24.12 in response to column API changes
 - Updated internal column construction logic for cuDF arrays
-- Added GPU-gated regression tests validated through CI
+- Added and iterated on GPU-gated test coverage for cuDF-related code paths
 - Improved axis parameter handling and documentation across high-level APIs
 
 Contributions include code, tests, and documentation — aligned with real user-facing issues.
