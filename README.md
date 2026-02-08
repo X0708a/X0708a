@@ -1,89 +1,82 @@
 # Hi, I'm Aashirvad Bajpai 
 
-I'm a B.Tech student at Manipal Institute of Technology with strong interests in
-Machine Learning, AI for Healthcare, and Open Source scientific computing.
-I enjoy working on research-driven projects that combine theory, systems, and real-world data.
+I’m a B.Tech student at **Manipal Institute of Technology** and an active open-source contributor to the **scikit-hep/awkward** project.
 
----
-
-##  Research & Technical Interests
-- Machine Learning & Deep Learning
-- AI for Healthcare and Biomedical Data
-- Systems, Performance & GPU Computing
-- Open-source Scientific Software
-
----
-
-## Technical Skills
-**Languages:** Python, C, C++, Java, SQL  
-**ML/DL:** PyTorch, TensorFlow, scikit-learn, NumPy, Pandas  
-**Data & Systems:** Awkward Array, cuDF, GPU-accelerated pipelines  
-**Tools:** Git, Linux, VS Code, Jupyter, LaTeX  
+My work focuses on backend and systems-level problems in scientific computing, particularly around GPU support, array backends, and API correctness. I enjoy contributing to research-driven software that sits at the intersection of performance, data, and usability.
 
 ---
 
 ## Open Source Contributions
-### Awkward Array
-Active open-source contributor with merged PRs focused on GPU compatibility and API correctness.
 
-**Highlights:**
-- Contributed to improving ak.to_cudf compatibility with cuDF ≥ 24.12 in response to column API changes
-- Updated internal column construction logic for cuDF arrays
-- Added and iterated on GPU-gated test coverage for cuDF-related code paths
-- Improved axis parameter handling and documentation across high-level APIs
+### Awkward Array (Scikit-HEP)
 
-Contributions include code, tests, and documentation — aligned with real user-facing issues.
+I am an active contributor to the Awkward Array ecosystem, with merged and ongoing work spanning backend internals, GPU compatibility, and documentation.
+
+**Contribution highlights:**
+- Improved `ak.to_cudf` compatibility across cuDF versions (≥ 24.12), adapting to column API changes
+- Updated internal column construction logic for numerical, struct, and masked arrays
+- Worked on buffer conversion paths (`to_buffers`) to avoid unsafe assumptions across non-NumPy backends
+- Added and refined GPU-gated test coverage for cuDF-related code paths
+- Clarified axis semantics and documented named-axis support in high-level APIs
+
+My contributions include production code, tests, and user-facing documentation, driven by real issues encountered by downstream users.
+
+I am currently collaborating with Awkward Array maintainers and participating in weekly mentor meetings.
 
 ---
 
-## Current Research & Projects
+## Technical Focus
+
+- **Languages:** Python, C/C++
+- **Scientific stack:** NumPy, Awkward Array, cuDF
+- **GPU & systems:** GPU-accelerated pipelines, backend compatibility, array layouts
+- **ML/DL (research use):** PyTorch, scikit-learn
+- **Tools:** Git, Linux, VS Code, Jupyter, LaTeX
+
+---
+
+## Research & Projects
 
 ### Clinical Similarity Modeling (MIMIC-IV, PhysioNet)
-Currently working on a **clinical similarity model** using the MIMIC-IV dataset:
-- Patient representation learning from structured EHR data
-- Similarity computation for cohort discovery and downstream clinical tasks
-- Emphasis on reproducibility, ethical data usage, and scalable pipelines
 
-*(Independent research project, non-Kaggle)*
-
----
+Independent research project focused on learning patient representations from structured EHR data:
+- Cohort similarity and retrieval
+- Scalable pipelines for large clinical datasets
+- Emphasis on reproducibility, ethical data usage, and evaluation
 
 ### Brain-to-Text Decoding (GPU Research Project)
+
 Research-oriented project exploring neural decoding pipelines:
 - Large-scale neural signal processing
-- Training and inference on **NVIDIA A100 GPUs**
-- Focus on model efficiency, data preprocessing, and evaluation
+- Training and inference on NVIDIA A100 GPUs
+- Focus on preprocessing efficiency, model performance, and evaluation
+
+### Other Work
+- Panorama video generation using AI-based interpolation (research project, LaTeX documented)
+- CNN-based handwritten digit recognition with GPU-enabled inference
+- Transformer-based language modeling on Shakespearean text
 
 ---
 
-## Publications & Research
+## Publications
+
 - **Knowledge Graph to Text Generation**  
-  Co-author, IEEE MoSICom 2025  
-  Ontology-driven triple-to-text generation using LLaMA-based LLMs  
-  (Journal manuscript under review at IEEE OJCS)
-
----
-
-## Selected Projects
-- **Panorama Video Generation (Research)**  
-  AI-based panorama and video generation; documented in LaTeX
-- **Handwritten Digit Recognition (CNN)**  
-  PyTorch CNN with dropout, pooling, and GPU-enabled inference
-- **Custom Shakespearean LLM**  
-  Transformer model trained on *The Merchant of Venice*
-- **Smart India Hackathon – Triveni IoT Solution**  
-  Digital farm management portal integrating AI dashboards and IoT analytics
+  Co-author, *IEEE MoSICom 2025*  
+  Ontology-driven triple-to-text generation using LLaMA-based language models  
+  (Extended journal manuscript under review at IEEE OJCS)
 
 ---
 
 ## Goals
-- Google Summer of Code contributor
-- Long-term research in AI + Systems
-- Meaningful open-source contributions with real-world impact
+
+- Continue contributing to open-source scientific computing projects
+- Pursue research at the intersection of systems, performance, and data-intensive workloads
+- Prepare a **Google Summer of Code** proposal focused on extending and stabilizing GPU backend support in Awkward Array
 
 ---
 
 ## Contact
-- GitHub: https://github.com/X0708a
-- LinkedIn: https://linkedin.com/in/aashirvad-bajpai-534137286
-- Email: aashirvadbajpai8@gmail.com
+
+- **GitHub:** https://github.com/X0708a  
+- **LinkedIn:** https://linkedin.com/in/aashirvad-bajpai-534137286  
+- **Email:** aashirvadbajpai8@gmail.com
