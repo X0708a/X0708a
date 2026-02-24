@@ -1,159 +1,55 @@
-<div align="center">
+# Hi there, I'm Aashirvad 👋 
 
-# Aashirvad Bajpai
+**Systems Engineer | AI Infrastructure | Columnar Data | B.Tech IT @ MIT Manipal**
 
-### Systems Engineering • Columnar Data Systems • AI Infrastructure
+I build high-performance scientific and AI systems across **C++**, **GPU acceleration**, and **columnar data layouts**.
 
-</div>
+My work includes backend abstraction for large-scale array systems, zero-copy data interfaces, and GPU-based neural decoding on NVIDIA A100.
 
----
-
-## About Me
-
-B.Tech Information Technology student at Manipal Institute of Technology (CGPA 8.04).
-
-I work at the intersection of:
-
-- Columnar data systems
-- Memory layout correctness
-- Backend abstraction
-- GPU-accelerated AI pipelines
-- High-performance scientific computing
-
-I am an active contributor to **Scikit-HEP Awkward Array**, working on backend-agnostic buffer handling, Arrow interoperability, and GPU columnar compatibility.
-
-I am currently exploring deeper C++ systems work through data layout design, buffer ownership models, and Arrow-native representations.
+Currently focused on memory correctness, Apache Arrow interoperability, and high-throughput CPU/GPU data processing.
 
 ---
 
-## Open Source Contributions
+### 🔬 Scientific Computing & Open Source
 
-### Scikit-HEP Awkward Array (Active Contributor)
+Active contributor to the **Scikit-HEP** ecosystem, primarily **Awkward Array**, improving performance and correctness for nested scientific data.
 
-**Backend-Agnostic Byteorder & Buffer Handling**
-- Refactored byteswap logic across NumPy, CuPy, and JAX backends
-- Ensured safe dtype reinterpretation and schema-preserving round trips
-- Strengthened buffer abstraction via the nplike layer
+- **GPU Pipelines:** CUDA-backed backend abstractions  
+- **Data Interoperability:** Apache Arrow ↔ PODIO ↔ C++  
+- **Memory Models:** Buffer ownership and layout safety across C++ ↔ Python
 
-**GPU Backend Compatibility (cuDF ≥ 24.12)**
-- Updated `ak.to_cudf` for new cuDF column factory APIs
-- Migrated to stable column constructors
-- Expanded GPU-gated CI regression tests
+### 🛠️ Featured Projects
 
-**Arrow-Backed String Kernels**
-- Implemented `ak.str.uniques` and `ak.str.distinct_counts`
-- Designed Arrow-compatible execution paths via `pyarrow.compute`
-- Added isolated API documentation and correctness tests
-
-**C++ Backend Investigation**
-- Traced float64 precision loss in `ak.from_json`
-- Identified parsing-level issue in awkward-cpp
-- Proposed round-trip-safe parsing refinements
+| Project | Technology |
+| :--- | :--- |
+| **[Awkward Array](https://github.com/scikit-hep/awkward)** | `C++` `Python` `Apache Arrow` `cuDF` |
+| **Brain-to-Text GPU Pipeline** | `Python` `PyTorch` `CUDA` |
+| **Research: Knowledge Graph → Text (IEEE MoSICom '25) & Extended OJCS Submission** | `LLMs` `NLP` `Python` |
+| **Arrow ↔ PODIO Interface** | `C++` `Modern CMake` `Arrow` |
 
 ---
 
-## GSoC 2026 Focus
+### 📊 Activity & Stats
 
-### Apache Arrow Interface for PODIO
-
-My interest lies in:
-
-- Mapping structured event data into Arrow’s columnar format
-- Preserving relation semantics (OneToMany, ObjectID)
-- Designing Frame → Arrow Table → Frame round-trip guarantees
-- Schema generation from runtime EDM metadata
-- Zero-copy semantics and buffer ownership correctness
-
-Key architectural interests:
-
-- Reusing existing PODIO write buffers vs introducing Arrow-native buffer layers
-- Arrow `StructArray` and `ListArray` representations for relation modeling
-- Memory ownership guarantees across C++ backends
-- Efficient Arrow `ArrayData` construction without semantic loss
-
-This aligns strongly with my experience in buffer abstraction, schema integrity, and heterogeneous backend compatibility.
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=X0708a&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
+  <img src="https://streak-stats.demolab.com?user=X0708a&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
-## Research
+### 🌐 Connect with Me
 
-### Brain-to-Text Decoding (GPU Pipeline)
-
-- Designed high-throughput preprocessing + inference on NVIDIA A100
-- Reduced validation loss from 1.97 → 0.89 over 20 epochs
-- Sustained 1.3 it/s under GPU-bound workloads
-- Optimized device–host memory transfer paths
-- Evaluated convergence across 505 batches per epoch
-
-Focus areas:
-- GPU memory efficiency
-- Batching strategies
-- Device-host synchronization minimization
-
----
-
-### Knowledge Graph → Text Generation
-
-Co-author, IEEE MoSICom 2025  
-Extended manuscript under review at IEEE Open Journal of the Computer Society (OJCS)
-
-- Ontology-driven triple-to-text generation
-- LLaMA-based structured semantic decoding
-- Schema-aware generation workflows
+<p align="left">
+  <a href="https://linkedin.com/in/aashirvad-bajpai-534137286">
+    <img src="https://img.shields.io/badge/LinkedIn-0181FF?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://leetcode.com/u/X0208">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+  <a href="mailto:aashirvadbajpai8@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 ---
-
-## Technical Areas
-
-**Languages**
-- Python
-- C++
-- C
-- Java
-
-**Data Systems**
-- Apache Arrow (PyArrow)
-- Awkward Array
-- cuDF
-- NumPy
-
-**Systems Concepts**
-- Columnar memory layout
-- Buffer ownership models
-- Zero-copy semantics
-- Byteorder correctness
-- Schema-preserving serialization
-- GPU memory models
-
-**AI / ML**
-- PyTorch
-- TensorFlow
-- Scikit-learn
-
-**Tools**
-- Git
-- Linux
-- Jupyter
-- VS Code
-- LaTeX
-
----
-
-## Current Direction
-
-Building systems that:
-
-- Guarantee memory safety and layout correctness
-- Preserve semantics across heterogeneous backends
-- Enable zero-copy data interoperability
-- Support scalable scientific computing pipelines
-
-Long-term interest: high-performance data infrastructure and systems-level AI tooling.
-
----
-
-## Links
-
-[GitHub](https://github.com/X0708a)  
-[LinkedIn](https://linkedin.com/in/aashirvad-bajpai-534137286)  
-[LeetCode](https://leetcode.com/u/X0208)
