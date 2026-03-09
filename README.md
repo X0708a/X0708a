@@ -44,7 +44,7 @@ Active contributor to the **Scikit-HEP** ecosystem, primarily **Awkward Array**,
   <a href="https://linkedin.com/in/aashirvad-bajpai-534137286">
     <img src="https://img.shields.io/badge/LinkedIn-0181FF?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://leetcode.com/u/X0208">
+  <a href="https://leetcode.com/u/x0708a/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
   </a>
   <a href="mailto:aashirvadbajpai8@gmail.com">
