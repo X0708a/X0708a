@@ -2,11 +2,10 @@
 
 **Systems Engineer | AI Infrastructure | Columnar Data | B.Tech IT @ MIT Manipal**
 
-I build high-performance scientific and AI systems across **C++**, **GPU acceleration**, and **columnar data layouts**.
+I build high-performance scientific and AI systems across **Python** **C++**, **GPU acceleration**, and **columnar data layouts**.
 
 My work includes backend abstraction for large-scale array systems, zero-copy data interfaces, and GPU-based neural decoding on NVIDIA A100.
 
-Currently focused on memory correctness, Apache Arrow interoperability, and high-throughput CPU/GPU data processing.
 
 ---
 
@@ -15,8 +14,7 @@ Currently focused on memory correctness, Apache Arrow interoperability, and high
 Active contributor to the **Scikit-HEP** ecosystem, primarily **Awkward Array**, improving performance and correctness for nested scientific data.
 
 - **GPU Pipelines:** CUDA-backed backend abstractions  
-- **Data Interoperability:** Apache Arrow ↔ PODIO ↔ C++  
-- **Memory Models:** Buffer ownership and layout safety across C++ ↔ Python
+- **Data Interoperability:** Apache Arrow ↔ PODIO ↔ C++ ↔ Python
 
 ### 🛠️ Featured Projects
 
