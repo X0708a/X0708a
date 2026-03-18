@@ -1,20 +1,7 @@
-# Hi there, I'm Aashirvad 👋 
+# Hi there, I'm Aashirvad 👋  
+**Systems Engineer | AI Infrastructure | Columnar Data | B.Tech IT @ MIT Manipal** — building high-performance systems in Python, C++, GPU acceleration (NVIDIA A100), and zero-copy data pipelines.  
 
-**Systems Engineer | AI Infrastructure | Columnar Data | B.Tech IT @ MIT Manipal**
-
-I build high-performance scientific and AI systems across **Python** **C++**, **GPU acceleration**, and **columnar data layouts**.
-
-My work includes backend abstraction for large-scale array systems, zero-copy data interfaces, and GPU-based neural decoding on NVIDIA A100.
-
-
----
-
-### 🔬 Scientific Computing & Open Source
-
-Active contributor to the **Scikit-HEP** ecosystem, primarily **Awkward Array**, improving performance and correctness for nested scientific data.
-
-- **GPU Pipelines:** CUDA-backed backend abstractions  
-- **Data Interoperability:** Apache Arrow ↔ PODIO ↔ C++ ↔ Python
+**Open Source @ Scikit-HEP (Awkward Array):** CUDA pipelines, Arrow↔PODIO interoperability, and large-scale scientific data systems.
 
 ### 🛠️ Featured Projects
 
@@ -29,11 +16,14 @@ Active contributor to the **Scikit-HEP** ecosystem, primarily **Awkward Array**,
 
 ### 📊 Activity & Stats
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=X0708a&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
-  <img src="https://streak-stats.demolab.com?user=X0708a&theme=tokyonight&hide_border=true" />
+<p align="center">
+  <img src="https://github-readme-stats-kappa-orpin.vercel.app/api?username=X0708a&show_icons=true&theme=radical&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats-kappa-orpin.vercel.app/api/top-langs?username=X0708a&layout=compact&theme=radical&hide_border=true" height="170"/>
 </p>
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=X0708a&theme=radical&hide_border=true" height="180"/>
+</p>
 ---
 
 ### 🌐 Connect with Me
