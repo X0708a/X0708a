@@ -17,8 +17,8 @@
 ### 📊 Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-kappa-orpin.vercel.app/api?username=X0708a&show_icons=true&theme=radical&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats-kappa-orpin.vercel.app/api/top-langs?username=X0708a&layout=compact&theme=radical&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats-kappa-orpin.vercel.app/api?username=aashirvad08&show_icons=true&theme=radical&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats-kappa-orpin.vercel.app/api/top-langs?username=aashirvad08&layout=compact&theme=radical&hide_border=true" height="170"/>
 </p>
 
 <p align="center">
